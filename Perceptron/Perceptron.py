@@ -8,14 +8,25 @@ class Perceptron:
     def __init__(self, bias, weights):
         self.weights = weights
         self.bias = bias
-        self.inputs
 
-    #think:
+
+    """
+
+        :param inputs: 
+        :return: 
+    """
     def feed(self, inputs):
+
+        result = 0
         if(len(inputs) == len(self.weights)):
             self.inputs = inputs
-            result = 0
+
         for i in range(len(self.weights)):
             result += self.weights[i] * self.inputs[i]
 
         result += self.bias
+        if(result > 0):
+            realresult = 1
+        else:
+            realresult = 0
+        return realresult
