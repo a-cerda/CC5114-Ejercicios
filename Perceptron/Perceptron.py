@@ -10,7 +10,7 @@ class Perceptron:
         self.bias = bias
         self.inputs
 
-
+    #think:
     def think(self, inputs):
         pass
 
