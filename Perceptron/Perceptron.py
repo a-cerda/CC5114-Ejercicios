@@ -11,6 +11,11 @@ class Perceptron:
         self.inputs
 
     #think:
-    def think(self, inputs):
-        pass
+    def feed(self, inputs):
+        if(len(inputs) == len(self.weights)):
+            self.inputs = inputs
+            result = 0
+        for i in range(len(self.weights)):
+            result += self.weights[i] * self.inputs[i]
 
+        result += self.bias
