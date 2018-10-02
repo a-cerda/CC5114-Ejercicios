@@ -1,4 +1,4 @@
-from Perceptron import Perceptron
+from Perceptron.Perceptron import Perceptron
 
 
 class Adder:
