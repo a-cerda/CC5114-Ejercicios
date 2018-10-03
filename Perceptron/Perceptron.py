@@ -11,7 +11,7 @@ class Perceptron:
         self.learningRate = learningRate
 
     def __init__(self, learningRate):
-        self.weights = random.uniform(-2.0,2.0)
+        self.weights = [random.uniform(-2.0,2.0) for i in range (2) ]
         self.bias = random.uniform(-2.0, 2.0)
         self.learningRate = learningRate
 
