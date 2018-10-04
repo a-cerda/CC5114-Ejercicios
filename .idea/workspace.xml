@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="59404922-27aa-42ee-9b33-7f883e0b1bdf" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/CC5114-Ejercicios.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/CC5114-Ejercicios.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Perceptron/Perceptron.py" beforeDir="false" afterPath="$PROJECT_DIR$/Perceptron/Perceptron.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Perceptron/SpacePositionProblem.py" beforeDir="false" afterPath="$PROJECT_DIR$/Perceptron/SpacePositionProblem.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,18 +12,19 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/CC5114_Ejercicios$SpacePositionProblem.coverage" NAME="SpacePositionProblem Coverage Results" MODIFIED="1538603688849" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Perceptron" />
+    <SUITE FILE_PATH="coverage/CC5114_Ejercicios$SpacePositionProblem.coverage" NAME="SpacePositionProblem Coverage Results" MODIFIED="1538617777637" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Perceptron" />
     <SUITE FILE_PATH="coverage/CC5114_Ejercicios$Unittests_in_Ejercicio1Test_py.coverage" NAME="Unittests in Ejercicio1Test.py Coverage Results" MODIFIED="1538519011910" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Perceptron/Test" />
   </component>
   <component name="FUSProjectUsageTrigger">
     <session id="1719106409">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
+          <entry key="project.closed" value="5" />
           <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.11" value="2" />
           <entry key="project.open.time.8" value="1" />
           <entry key="project.open.time.9" value="2" />
-          <entry key="project.opened" value="4" />
+          <entry key="project.opened" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -43,14 +41,14 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="2701" />
-          <entry key="txt" value="115" />
+          <entry key="py" value="2763" />
+          <entry key="txt" value="187" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="115" />
-          <entry key="Python" value="2701" />
+          <entry key="PLAIN_TEXT" value="187" />
+          <entry key="Python" value="2763" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages" />
@@ -63,7 +61,7 @@
         <entry file="file://$PROJECT_DIR$/Perceptron/Perceptron.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="323">
-              <caret line="19" column="17" lean-forward="true" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
+              <caret line="19" column="17" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
               <folding>
                 <marker date="1538603375275" expanded="true" signature="422:585" ph="..." />
               </folding>
@@ -74,12 +72,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Perceptron/SpacePositionProblem.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="18" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
+            <state relative-caret-position="17">
+              <caret line="1" column="24" selection-start-line="1" selection-start-column="24" selection-end-line="1" selection-end-column="24" />
               <folding>
-                <element signature="e#0#13#0" expanded="true" />
-                <marker date="1538603674168" expanded="true" signature="106:107" ph="..." />
-                <marker date="1538603674168" expanded="true" signature="106:111" ph="..." />
+                <marker date="1538617606640" expanded="true" signature="116:117" ph="..." />
+                <marker date="1538617606640" expanded="true" signature="116:121" ph="..." />
               </folding>
             </state>
           </provider>
@@ -100,7 +97,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Perceptron/Test/Ejercicio1Test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
+            <state relative-caret-position="187">
               <caret line="14" selection-start-line="14" selection-end-line="14" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
@@ -160,40 +157,17 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="4">
-    <option name="y" value="25" />
-    <option name="width" value="1083" />
-    <option name="height" value="1055" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="659" />
+    <option name="y" value="161" />
+    <option name="width" value="1073" />
+    <option name="height" value="789" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes>
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="CC5114-Ejercicios" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CC5114-Ejercicios" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CC5114-Ejercicios" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CC5114-Ejercicios" type="462c0819:PsiDirectoryNode" />
-              <item name="Perceptron" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CC5114-Ejercicios" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CC5114-Ejercicios" type="462c0819:PsiDirectoryNode" />
-              <item name="Perceptron" type="462c0819:PsiDirectoryNode" />
-              <item name="Test" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-    </panes>
+    <panes />
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -334,7 +308,14 @@
       <option name="project" value="LOCAL" />
       <updated>1538602315773</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Adding perceptron training and checking">
+      <created>1538603901620</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1538603901620</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -370,7 +351,7 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="25" width="1083" height="1055" extended-state="4" />
+    <frame x="724" y="218" width="1073" height="789" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.23818707" />
@@ -378,7 +359,7 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32864866" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32864866" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -432,18 +413,19 @@
     <MESSAGE value="Made perceptron class" />
     <MESSAGE value="Testing Adder Class" />
     <MESSAGE value="Fixed Adder Class, completed exercise" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed Adder Class, completed exercise" />
+    <MESSAGE value="Adding perceptron training and checking" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding perceptron training and checking" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/Perceptron/Perceptron.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1428">
-          <caret line="84" selection-start-line="84" selection-end-line="84" />
+        <state relative-caret-position="323">
+          <caret line="19" column="17" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
+          <folding>
+            <marker date="1538603375275" expanded="true" signature="422:585" ph="..." />
+          </folding>
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Perceptron/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/Perceptron/Adder.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -457,7 +439,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Perceptron/Test/Ejercicio1Test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
+        <state relative-caret-position="187">
           <caret line="14" selection-start-line="14" selection-end-line="14" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
@@ -466,24 +448,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Perceptron/Perceptron.py">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="17" lean-forward="true" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
-          <folding>
-            <marker date="1538603375275" expanded="true" signature="422:585" ph="..." />
-          </folding>
+        <state relative-caret-position="1428">
+          <caret line="84" selection-start-line="84" selection-end-line="84" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Perceptron/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/Perceptron/SpacePositionProblem.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="18" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
+        <state relative-caret-position="17">
+          <caret line="1" column="24" selection-start-line="1" selection-start-column="24" selection-end-line="1" selection-end-column="24" />
           <folding>
-            <element signature="e#0#13#0" expanded="true" />
-            <marker date="1538603674168" expanded="true" signature="106:107" ph="..." />
-            <marker date="1538603674168" expanded="true" signature="106:111" ph="..." />
+            <marker date="1538617606640" expanded="true" signature="116:117" ph="..." />
+            <marker date="1538617606640" expanded="true" signature="116:121" ph="..." />
           </folding>
         </state>
       </provider>
