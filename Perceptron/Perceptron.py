@@ -43,3 +43,5 @@ class Perceptron:
         self.bias = self.bias + (self.learningRate * diff)
 
 
+
+
