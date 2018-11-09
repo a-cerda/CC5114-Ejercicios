@@ -2,6 +2,7 @@ import random
 import matplotlib.pyplot as plt
 import numpy as np
 from Perceptron import *
+from NeuralNetwork import Neuron
 
 
 
@@ -61,4 +62,4 @@ def whereIs(x, y):
     else:
         return 1
 
-calculatePoints(300,120)
+calculatePoints(300,200)
