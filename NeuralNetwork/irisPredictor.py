@@ -31,7 +31,7 @@ expectedOutput = []
 with open(csvfile) as csv_file:
     csv_reader = csv.reader(csv_file, delimiter=',')
     for row in csv_reader:
-        csvinputs.append([float(item) for item in row[:3]])
+        csvinputs.append([float(item) for item in row[:4]])
 
         if row[4] == "Iris-setosa":
             expectedOutput.append([1,0,0])
@@ -46,7 +46,7 @@ actualinputs = normalize(csvinputs)
 
 
 #Network creation and training
-irisPredictor = NeuralNetwork(3,[3,5,3],3)
+irisPredictor = NeuralNetwork(3,[3,5,3],4)
 numberofepochs = 1000
 irisPredictor.trainNetworkWithMultipleInputs(actualinputs,numberofepochs,expectedOutput)
 

@@ -9,7 +9,7 @@ class NeuronLayer:
         self.output = []
         self.delta = []
         for i in range(numberOfNeurons):
-            self.neurons.append(Neuron(0.5,inputsPerNeuron))
+            self.neurons.append(Neuron(0.1,inputsPerNeuron))
 
 
     def getDelta(self):
