@@ -9,7 +9,7 @@ class NeuronLayer:
         self.output = []
         self.delta = []
         for i in range(numberOfNeurons):
-            self.neurons.append(Neuron(0.1,inputsPerNeuron))
+            self.neurons.append(Neuron(0.5,inputsPerNeuron))
 
 
     def getDelta(self):
@@ -27,7 +27,7 @@ class NeuronLayer:
     def calculateOutputLayerDelta(self,expectedOutput):
         self.delta = []
         transferDerivative = self.trasferDerivative()
-        if expectedOutput is list:
+        if type(expectedOutput) is list:
             for i in range(len(expectedOutput)):
                 self.delta.append((expectedOutput[i]-self.output[i]) * transferDerivative[i])
         else:

@@ -2,7 +2,7 @@
 import random, math
 #Neuron class: implements a basic sigmoid neuron with the following fields:
 #weights: a python list of weights for the inputs
-#bias: the bias for the perceptron
+#bias: the bias for the neuron
 #inputs: the inputs for the calculation
 
 
@@ -26,7 +26,6 @@ class Neuron:
         :return: 
     """
     def feed(self, inputs):
-
         result = 0
         if(len(inputs) == len(self.weights)):
             self.inputs = inputs
@@ -39,7 +38,8 @@ class Neuron:
         self.output = result
         return self.output
 
-    def adjustWeights(self,delta):
+    def adjustWeights(self, delta):
+        self.bias += self.learningRate * delta
         for i in range(len(self.weights)):
             self.weights[i] += (self.learningRate * delta * self.inputs[i])
-        self.bias += self.learningRate*delta
+

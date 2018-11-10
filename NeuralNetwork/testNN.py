@@ -1,6 +1,7 @@
 from NeuralNetwork.neuralnetwork import *
+import matplotlib.pyplot as plt
 
-mynet = NeuralNetwork(3, [1,2,1], 2)
+mynet = NeuralNetwork(3, [3,2,1], 2)
 i=0
 for layer in mynet.layers:
     print("this is layer: "+format(i))
@@ -24,7 +25,18 @@ for layer in mynet.layers:
 #     for neuron in neurons:
 #         print("Neuron weights are: {}".format(neuron.getWeights()))
 #         print("Neuon bias is:{}".format(neuron.bias))
+error = mynet.getMeanSquaredError()
+epochs = [i for i in range(2000)]
+precision = mynet.getPrecision()
+plt.plot(epochs,error,label='error')
+plt.plot(epochs, precision,label='precision')
+plt.legend()
 
+plt.xlabel('Epoch')
+
+
+plt.title("Error and precision")
+plt.show()
 print(mynet.feed([1,1]))
 print(mynet.feed([1,0]))
 print(mynet.feed([0,1]))
