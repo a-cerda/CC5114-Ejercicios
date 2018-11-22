@@ -30,7 +30,7 @@ count = 0
 for char in "supercalifragilisticoespialidoso":
     count += 1
 
-alggenetico = GeneticAlgorithm.GeneticAlgorithm(1100,0.01,count,fitnessFunction,
+alggenetico = GeneticAlgorithm.GeneticAlgorithm(5000,0.01,count,fitnessFunction,
                                                 generatorFunc,alphabet = list(string.ascii_lowercase),maxNumberOfIterations=1000)
 alggenetico.run()
 
