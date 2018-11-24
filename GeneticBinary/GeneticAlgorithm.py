@@ -86,8 +86,10 @@ class GeneticAlgorithm:
 
         self.population = newPopulation
 
+    def tournamentSelection(self):
+        pass
 
-    def run(self):
+    def runWithAccFitness(self):
         result = []
         for i in range(self.maxNumberOfIterations):
             self.calculateFitness()
@@ -108,4 +110,6 @@ class GeneticAlgorithm:
 
         print("The solution wasn't found on "+str(self.maxNumberOfIterations)+" iterations")
 
+    def runWithTournamentSelection(self):
+        pass
 

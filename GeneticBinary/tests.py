@@ -32,7 +32,7 @@ for char in "supercalifragilisticoespialidoso":
 
 alggenetico = GeneticAlgorithm.GeneticAlgorithm(5000,0.01,count,fitnessFunction,
                                                 generatorFunc,alphabet = list(string.ascii_lowercase),maxNumberOfIterations=1000)
-alggenetico.run()
+alggenetico.runWithAccFitness()
 
 # #Plotting
 
