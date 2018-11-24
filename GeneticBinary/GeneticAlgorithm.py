@@ -1,6 +1,5 @@
 import random as rand
 import GeneticBinary.Individual as Individual
-import string
 
 
 class GeneticAlgorithm:
@@ -26,30 +25,21 @@ class GeneticAlgorithm:
         self.population = self.generatorFunction(self.numberOfGenes,len(self.regularFitness))
 
     def calculateFitness(self):
-        i = 0
-        for individual in self.population:
+        for i, individual in enumerate(self.population):
             self.regularFitness[i] = self.fitnessFunction(individual)
-
-            i += 1
 
 
 
     def normalizeAndOrderFitness(self):
-        i = 0
         sumOfAllFitness = float(sum(self.regularFitness))
-
-        for individual in self.population:
+        for i, individual in enumerate(self.population):
             try:
                 self.accfitness[i] = (self.regularFitness[i] / sumOfAllFitness)
             except ZeroDivisionError:
                 self.accfitness[i] = 0
             individual.changeFitness(self.accfitness[i])
-            i+=1
-        indexes = [self.population[i].index for i in range(len(self.population))]
         self.accfitness.sort(reverse=True)
         self.population.sort(key=lambda x : x.fitness,reverse=True)
-
-
 
 
     def accumulateFitness(self):

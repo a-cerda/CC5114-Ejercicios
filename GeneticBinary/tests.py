@@ -3,13 +3,11 @@ from GeneticBinary import GeneticAlgorithm,Individual
 import matplotlib.pyplot as plt
 
 def charFitnessFunc(individual):
-    expectedString = "supercalifragilisticoespialidoso"
-    i = 0
+    expectedString = "megustaelpikachu"
     fitness = 0
-    for gene in individual.genes:
+    for i, gene in enumerate(individual.genes):
         if gene == expectedString[i]:
             fitness += 1
-        i += 1
     individual.changeFitness(fitness)
     return fitness
 
@@ -27,7 +25,7 @@ fitnessFunction = charFitnessFunc
 
 generatorFunc = strGeneratorFunc
 count = 0
-for char in "supercalifragilisticoespialidoso":
+for char in "megustaelpikachu":
     count += 1
 
 alggenetico = GeneticAlgorithm.GeneticAlgorithm(5000,0.01,count,fitnessFunction,

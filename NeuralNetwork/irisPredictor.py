@@ -47,7 +47,7 @@ actualinputs = normalize(csvinputs)
 
 #Network creation and training
 irisPredictor = NeuralNetwork(3,[3,5,3],4)
-numberofepochs = 1000
+numberofepochs = 240
 irisPredictor.trainNetworkWithMultipleInputs(actualinputs,numberofepochs,expectedOutput)
 
 # #Plotting
