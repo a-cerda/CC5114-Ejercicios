@@ -28,7 +28,7 @@ count = 0
 for char in "megustaelpikachu":
     count += 1
 
-alggenetico = GeneticAlgorithm.GeneticAlgorithm(5000,0.01,count,fitnessFunction,
+alggenetico = GeneticAlgorithm.GeneticAlgorithm(1000,0.01,count,fitnessFunction,
                                                 generatorFunc,alphabet = list(string.ascii_lowercase),maxNumberOfIterations=1000)
 alggenetico.runWithAccFitness()
 

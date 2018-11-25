@@ -80,19 +80,17 @@ class GeneticAlgorithm:
         pass
 
     def runWithAccFitness(self):
-        result = []
+
         for i in range(self.maxNumberOfIterations):
             self.calculateFitness()
             self.normalizeAndOrderFitness()
             self.accumulateFitness()
             if self.fitnessFunction(self.population[0]) == self.numberOfGenes:
                 print("The solution has been found on generation "+str(i)+" and it is: "
-                      )
-                print(self.population[0].genes)
+                      +''.join(self.population[0].genes))
                 self.fitnessPerGeneration.append(self.fitnessFunction(self.population[0]))
                 self.maximumIterationReached = i
-                result = self.population[0].genes
-                return result
+                return self.population[0].genes
             self.fitnessPerGeneration.append(self.fitnessFunction(self.population[0]))
             print(self.fitnessPerGeneration[i])
 
