@@ -87,13 +87,13 @@ class GeneticAlgorithm:
                 print("The solution has been found on generation "+str(i)+" and it is: "
                       +''.join(self.population[0][0]))
                 self.fitnessPerGeneration.append(self.fitnessFunction(self.population[0][0]))
-                self.maximumIterationReached = i
+                self.maximumIterationReached = i+1
                 return self.population[0][0]
             self.fitnessPerGeneration.append(self.fitnessFunction(self.population[0][0]))
             print("The current generation is: "+str(i)+" and it's max fitness is : "+str(self.fitnessPerGeneration[i]))
 
             self.reproduce()
-
+        self.maximumIterationReached = self.maxNumberOfIterations
         print("The solution wasn't found on "+str(self.maxNumberOfIterations)+" iterations")
 
     def runWithTournamentSelection(self):

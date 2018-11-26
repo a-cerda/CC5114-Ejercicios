@@ -1,5 +1,5 @@
 import string
-from GeneticBinary import GeneticAlgorithm,Individual
+from GeneticBinary import GeneticAlgorithm
 import matplotlib.pyplot as plt
 import random as rand
 
@@ -28,14 +28,14 @@ count = 0
 for char in "porquelatierraesmaspequenaqueelsolylalunaesmaspequenaquelatierra":
     count += 1
 
-alggenetico = GeneticAlgorithm.GeneticAlgorithm(10000,0.01,count,fitnessFunction,
-                                                generatorFunc,alphabet = list(string.ascii_lowercase),maxNumberOfIterations=1000)
+alggenetico = GeneticAlgorithm.GeneticAlgorithm(800,0.001,count,fitnessFunction,
+                                                generatorFunc,alphabet = list(string.ascii_lowercase),maxNumberOfIterations=2000)
 alggenetico.runWithAccFitness()
 
 # #Plotting
 
 
-generations = [i for i in range(alggenetico.maximumIterationReached+1)]
+generations = [i for i in range(alggenetico.maximumIterationReached)]
 fitness = [fitness for fitness in alggenetico.fitnessPerGeneration]
 plt.plot(generations,fitness,label='Fitness')
 
