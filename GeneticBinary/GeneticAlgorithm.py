@@ -1,5 +1,4 @@
 import random as rand
-import GeneticBinary.Individual as Individual
 
 
 class GeneticAlgorithm:
@@ -17,29 +16,31 @@ class GeneticAlgorithm:
         self.accfitness = [.0 for i in range(populationSize)]
         self.numberOfGenes = numberOfGenes
         self.population = []
-        self.generatePopulation()
+        self.populationSize = populationSize
         self.fitnessPerGeneration = []
+        self.generatePopulation()
+
+
 
 
     def generatePopulation(self):
-        self.population = self.generatorFunction(self.numberOfGenes,len(self.regularFitness))
+        self.population = self.generatorFunction(self.numberOfGenes,self.populationSize)
 
     def calculateFitness(self):
         for i, individual in enumerate(self.population):
-            self.regularFitness[i] = self.fitnessFunction(individual)
-
+            self.regularFitness[i] = self.fitnessFunction(individual[0])
+            individual[1] = self.regularFitness[i]
 
 
     def normalizeAndOrderFitness(self):
         sumOfAllFitness = float(sum(self.regularFitness))
-        for i, individual in enumerate(self.population):
+        for i in range(self.populationSize):
             try:
                 self.accfitness[i] = (self.regularFitness[i] / sumOfAllFitness)
             except ZeroDivisionError:
                 self.accfitness[i] = 0
-            individual.changeFitness(self.accfitness[i])
         self.accfitness.sort(reverse=True)
-        self.population.sort(key=lambda x : x.fitness,reverse=True)
+        self.population.sort(key=lambda x : x[1],reverse=True)
 
 
     def accumulateFitness(self):
@@ -50,29 +51,26 @@ class GeneticAlgorithm:
         n = rand.random()
         if n < self.accfitness[0]:
             return 0
-        for i in range(len(self.accfitness)):
+        for i in range(self.populationSize):
             if n < self.accfitness[i]:
                 return i
         return len(self.accfitness)-1
 
     def reproduce(self):
         newPopulation = []
-        for i in range(len(self.population)):
-            firstParent = self.population[self.selectFittest()]
-            secondParent = self.population[self.selectFittest()]
-
-            crossoverPoint = rand.randint(0,len(self.population))
-            child = Individual.Individual(i,self.alphabet,self.numberOfGenes)
-            childGenes = []
+        for i in range(self.populationSize):
+            firstParent = self.population[self.selectFittest()][0]
+            secondParent = self.population[self.selectFittest()][0]
+            crossoverPoint = rand.randint(0,self.numberOfGenes)
+            child = []
             for j in range(self.numberOfGenes):
                 if j < crossoverPoint:
-                    childGenes.append(firstParent.genes[j])
+                    child.append(firstParent[j])
                 else:
-                    childGenes.append(secondParent.genes[j])
+                    child.append(secondParent[j])
                 if(rand.random() < self.mutationProbability):
-                    childGenes[j] = rand.choice(self.alphabet)
-            child.setGenes(childGenes)
-            newPopulation.append(child)
+                    child[j] = rand.choice(self.alphabet)
+            newPopulation.append([child,0])
 
         self.population = newPopulation
 
@@ -85,14 +83,14 @@ class GeneticAlgorithm:
             self.calculateFitness()
             self.normalizeAndOrderFitness()
             self.accumulateFitness()
-            if self.fitnessFunction(self.population[0]) == self.numberOfGenes:
+            if self.fitnessFunction(self.population[0][0]) == self.numberOfGenes:
                 print("The solution has been found on generation "+str(i)+" and it is: "
-                      +''.join(self.population[0].genes))
-                self.fitnessPerGeneration.append(self.fitnessFunction(self.population[0]))
+                      +''.join(self.population[0][0]))
+                self.fitnessPerGeneration.append(self.fitnessFunction(self.population[0][0]))
                 self.maximumIterationReached = i
-                return self.population[0].genes
-            self.fitnessPerGeneration.append(self.fitnessFunction(self.population[0]))
-            print(self.fitnessPerGeneration[i])
+                return self.population[0][0]
+            self.fitnessPerGeneration.append(self.fitnessFunction(self.population[0][0]))
+            print("The current generation is: "+str(i)+" and it's max fitness is : "+str(self.fitnessPerGeneration[i]))
 
             self.reproduce()
 

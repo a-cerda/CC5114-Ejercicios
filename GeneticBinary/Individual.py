@@ -9,12 +9,3 @@ class Individual:
         self.alphabet = alphabet
         self.numberOfGenes = numberofgenes
         self.genes = [rand.choice(alphabet) for i in range(numberofgenes)]
-
-    def changeFitness(self,fitness):
-        self.fitness = fitness
-
-    def setIndex(self,index):
-        self.index = index
-
-    def setGenes(self,genes):
-        self.genes = genes

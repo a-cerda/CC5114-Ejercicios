@@ -1,14 +1,14 @@
 import string
 from GeneticBinary import GeneticAlgorithm,Individual
 import matplotlib.pyplot as plt
+import random as rand
 
 def charFitnessFunc(individual):
-    expectedString = "megustaelpikachu"
+    expectedString = "porquelatierraesmaspequenaqueelsolylalunaesmaspequenaquelatierra"
     fitness = 0
-    for i, gene in enumerate(individual.genes):
+    for i, gene in enumerate(individual):
         if gene == expectedString[i]:
             fitness += 1
-    individual.changeFitness(fitness)
     return fitness
 
 
@@ -16,7 +16,7 @@ def strGeneratorFunc(numberOfGenes, populationSize):
     alphabet = list(string.ascii_lowercase)
     population = []
     for i in range(populationSize):
-        population.append(Individual.Individual(i,alphabet,numberOfGenes))
+        population.append([[rand.choice(alphabet) for i in range(numberOfGenes)],0])
 
     return population
 
@@ -25,10 +25,10 @@ fitnessFunction = charFitnessFunc
 
 generatorFunc = strGeneratorFunc
 count = 0
-for char in "megustaelpikachu":
+for char in "porquelatierraesmaspequenaqueelsolylalunaesmaspequenaquelatierra":
     count += 1
 
-alggenetico = GeneticAlgorithm.GeneticAlgorithm(1000,0.01,count,fitnessFunction,
+alggenetico = GeneticAlgorithm.GeneticAlgorithm(10000,0.01,count,fitnessFunction,
                                                 generatorFunc,alphabet = list(string.ascii_lowercase),maxNumberOfIterations=1000)
 alggenetico.runWithAccFitness()
 
