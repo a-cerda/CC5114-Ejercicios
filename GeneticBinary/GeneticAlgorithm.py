@@ -24,7 +24,8 @@ class GeneticAlgorithm:
 
 
     def generatePopulation(self):
-        self.population = self.generatorFunction(self.numberOfGenes,self.populationSize)
+        self.population = [[individual, 0] for individual in self.generatorFunction(self.numberOfGenes,
+                                                                                    self.populationSize)]
 
     def calculateFitness(self):
         for i, individual in enumerate(self.population):
@@ -85,7 +86,7 @@ class GeneticAlgorithm:
             self.accumulateFitness()
             if self.fitnessFunction(self.population[0][0]) == self.numberOfGenes:
                 print("The solution has been found on generation "+str(i)+" and it is: "
-                      +''.join(self.population[0][0]))
+                      +''.join(str(self.population[0][0])))
                 self.fitnessPerGeneration.append(self.fitnessFunction(self.population[0][0]))
                 self.maximumIterationReached = i+1
                 return self.population[0][0]

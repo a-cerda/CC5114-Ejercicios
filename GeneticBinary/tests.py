@@ -16,7 +16,7 @@ def strGeneratorFunc(numberOfGenes, populationSize):
     alphabet = list(string.ascii_lowercase)
     population = []
     for i in range(populationSize):
-        population.append([[rand.choice(alphabet) for i in range(numberOfGenes)],0])
+        population.append([rand.choice(alphabet) for i in range(numberOfGenes)])
 
     return population
 
