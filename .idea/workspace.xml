@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="59404922-27aa-42ee-9b33-7f883e0b1bdf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/GeneticBinary/hamiltonianFinder.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/GeneticBinary/GeneticAlgorithm.py" beforeDir="false" afterPath="$PROJECT_DIR$/GeneticBinary/GeneticAlgorithm.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GeneticBinary/hamiltonianFinder.py" beforeDir="false" afterPath="$PROJECT_DIR$/GeneticBinary/hamiltonianFinder.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/GeneticBinary/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/GeneticBinary/tests.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,8 +15,8 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/CC5114_Ejercicios$testcasescatedra.coverage" NAME="testcasescatedra Coverage Results" MODIFIED="1541801500173" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/NeuralNetwork" />
-    <SUITE FILE_PATH="coverage/CC5114_Ejercicios$hamiltonianFinder.coverage" NAME="hamiltonianFinder Coverage Results" MODIFIED="1543457424190" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/GeneticBinary" />
-    <SUITE FILE_PATH="coverage/CC5114_Ejercicios$tests.coverage" NAME="tests Coverage Results" MODIFIED="1543432574920" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/GeneticBinary" />
+    <SUITE FILE_PATH="coverage/CC5114_Ejercicios$hamiltonianFinder.coverage" NAME="hamiltonianFinder Coverage Results" MODIFIED="1543802069656" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/GeneticBinary" />
+    <SUITE FILE_PATH="coverage/CC5114_Ejercicios$tests.coverage" NAME="tests Coverage Results" MODIFIED="1543801444864" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/GeneticBinary" />
     <SUITE FILE_PATH="coverage/CC5114_Ejercicios$irisPredictor.coverage" NAME="irisPredictor Coverage Results" MODIFIED="1541817493279" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/NeuralNetwork" />
     <SUITE FILE_PATH="coverage/CC5114_Ejercicios$testNN.coverage" NAME="testNN Coverage Results" MODIFIED="1541811604893" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/NeuralNetwork" />
     <SUITE FILE_PATH="coverage/CC5114_Ejercicios$Unittests_in_Ejercicio1Test_py.coverage" NAME="Unittests in Ejercicio1Test.py Coverage Results" MODIFIED="1538519011910" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Perceptron/Test" />
@@ -24,23 +24,35 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/GeneticBinary/hamiltonianFinder.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
-              <caret line="37" column="69" selection-start-line="37" selection-start-column="69" selection-end-line="37" selection-end-column="72" />
+            <state relative-caret-position="352">
+              <caret line="174" lean-forward="true" selection-start-line="174" selection-end-line="174" />
               <folding>
-                <element signature="e#0#42#0" expanded="true" />
+                <element signature="e#0#23#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/GeneticBinary/tests.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="247">
+              <caret line="38" selection-start-line="38" selection-end-line="39" selection-end-column="71" />
+              <folding>
+                <element signature="e#0#13#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/GeneticBinary/GeneticAlgorithm.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-76">
-              <caret line="20" selection-start-line="20" selection-end-line="20" />
+            <state relative-caret-position="-636">
+              <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
             </state>
           </provider>
         </entry>
@@ -84,15 +96,15 @@
         <option value="$PROJECT_DIR$/GeneticBinary/__init__.py" />
         <option value="$PROJECT_DIR$/GeneticBinary/Individual.py" />
         <option value="$PROJECT_DIR$/GeneticBinary/tests.py" />
-        <option value="$PROJECT_DIR$/GeneticBinary/GeneticAlgorithm.py" />
         <option value="$PROJECT_DIR$/GeneticBinary/hamiltonianFinder.py" />
+        <option value="$PROJECT_DIR$/GeneticBinary/GeneticAlgorithm.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="y" value="30" />
-    <option name="width" value="2400" />
-    <option name="height" value="1320" />
+    <option name="y" value="27" />
+    <option name="width" value="1727" />
+    <option name="height" value="1053" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -290,7 +302,13 @@
       <workItem from="1543349433625" duration="6147000" />
       <workItem from="1543420866297" duration="2955000" />
       <workItem from="1543432017772" duration="4291000" />
-      <workItem from="1543442165614" duration="5138000" />
+      <workItem from="1543442165614" duration="7950000" />
+      <workItem from="1543472544639" duration="4024000" />
+      <workItem from="1543522787401" duration="11468000" />
+      <workItem from="1543541839025" duration="1611000" />
+      <workItem from="1543614843974" duration="1974000" />
+      <workItem from="1543778541481" duration="6614000" />
+      <workItem from="1543798237570" duration="4682000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1538424863839</created>
@@ -404,7 +422,14 @@
       <option name="project" value="LOCAL" />
       <updated>1543206135574</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Created fitness and generator functions for finding hamiltonian path in an undirected graph">
+      <created>1543457482299</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1543457482300</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -440,7 +465,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="47792000" />
+    <option name="totallyTimeSpent" value="80977000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -455,12 +480,12 @@
     <frame x="0" y="25" width="1920" height="1055" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22678763" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49707603" visible="true" weight="0.16488793" />
+      <window_info id="Structure" order="1" sideWeight="0.50292397" side_tool="true" weight="0.16488793" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32937366" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.5149413" visible="true" weight="0.26241902" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.5149413" visible="true" weight="0.2613391" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4994664" weight="0.39848813" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -471,14 +496,14 @@
       <window_info anchor="bottom" id="Messages" order="10" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.4850587" side_tool="true" weight="0.39956802" />
       <window_info anchor="bottom" id="Version Control" order="12" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="13" sideWeight="0.49926144" weight="0.38552916" />
+      <window_info anchor="bottom" id="Terminal" order="13" sideWeight="0.49926144" weight="0.38528138" />
       <window_info anchor="bottom" id="Concurrent Activities Diagram" order="14" weight="0.32972974" />
-      <window_info anchor="right" id="Coverage" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="SciView" order="3" weight="0.3239061" />
+      <window_info anchor="right" id="SciView" order="3" visible="true" weight="0.4103522" />
       <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Coverage" order="5" side_tool="true" />
     </layout>
     <layout-to-restore>
       <window_info content_ui="combo" id="Project" order="0" weight="0.20757738" />
@@ -519,18 +544,8 @@
     <MESSAGE value="Finished Perceptron with graphs" />
     <MESSAGE value="Pythoning up the code" />
     <MESSAGE value="Optimization done, changed Individual class for list representation" />
-    <option name="LAST_COMMIT_MESSAGE" value="Optimization done, changed Individual class for list representation" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/GeneticBinary/hamiltonianFinder.py</url>
-          <line>53</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="Created fitness and generator functions for finding hamiltonian path in an undirected graph" />
+    <option name="LAST_COMMIT_MESSAGE" value="Created fitness and generator functions for finding hamiltonian path in an undirected graph" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Perceptron/Test/Ejercicio1Test.py" />
@@ -589,30 +604,48 @@
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/GeneticBinary/Individual.py" />
+    <entry file="file://$PROJECT_DIR$/GeneticBinary/mutation_rate0.015.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GeneticBinary/mutation_rate0.025.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GeneticBinary/mutation_rate0.03.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GeneticBinary/mutation_rate0.01.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GeneticBinary/mutation_rate0.055.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GeneticBinary/mutation_rate0.02.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/GeneticBinary/tests.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-200">
-          <caret line="10" column="24" lean-forward="true" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
+        <state relative-caret-position="247">
+          <caret line="38" selection-start-line="38" selection-end-line="39" selection-end-column="71" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/GeneticBinary/GeneticAlgorithm.py">
+    <entry file="file://$PROJECT_DIR$/GeneticBinary/hamiltonianFinder.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-76">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        <state relative-caret-position="352">
+          <caret line="174" lean-forward="true" selection-start-line="174" selection-end-line="174" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/GeneticBinary/hamiltonianFinder.py">
+    <entry file="file://$PROJECT_DIR$/GeneticBinary/GeneticAlgorithm.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="37" column="69" selection-start-line="37" selection-start-column="69" selection-end-line="37" selection-end-column="72" />
-          <folding>
-            <element signature="e#0#42#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="-636">
+          <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
         </state>
       </provider>
     </entry>

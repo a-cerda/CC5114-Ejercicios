@@ -4,7 +4,7 @@ import random as rand
 class GeneticAlgorithm:
 
     def __init__(self,populationSize, mutationProbability, numberOfGenes,
-                 fitnessFunction, generatorFunction,alphabet,maxNumberOfIterations = 100):
+                 fitnessFunction, generatorFunction,alphabet,maxNumberOfIterations = 100, seed = None):
 
         self.maximumIterationReached = 0
         self.maxNumberOfIterations = maxNumberOfIterations
@@ -18,10 +18,9 @@ class GeneticAlgorithm:
         self.population = []
         self.populationSize = populationSize
         self.fitnessPerGeneration = []
+        if seed is not None:
+            rand.seed(seed)
         self.generatePopulation()
-
-
-
 
     def generatePopulation(self):
         self.population = [[individual, 0] for individual in self.generatorFunction(self.numberOfGenes,
@@ -32,7 +31,6 @@ class GeneticAlgorithm:
             self.regularFitness[i] = self.fitnessFunction(individual[0])
             individual[1] = self.regularFitness[i]
 
-
     def normalizeAndOrderFitness(self):
         sumOfAllFitness = float(sum(self.regularFitness))
         for i in range(self.populationSize):
@@ -42,7 +40,6 @@ class GeneticAlgorithm:
                 self.accfitness[i] = 0
         self.accfitness.sort(reverse=True)
         self.population.sort(key=lambda x : x[1],reverse=True)
-
 
     def accumulateFitness(self):
         for i in range(1,len(self.accfitness)):
@@ -75,7 +72,8 @@ class GeneticAlgorithm:
 
         self.population = newPopulation
 
-    def tournamentSelection(self):
+    # never implemented, do not use
+    def tournamentSelection(self,k):
         pass
 
     def runWithAccFitness(self):
@@ -96,7 +94,9 @@ class GeneticAlgorithm:
             self.reproduce()
         self.maximumIterationReached = self.maxNumberOfIterations
         print("The solution wasn't found on "+str(self.maxNumberOfIterations)+" iterations")
+        print("The best aproximation found was: " + ''.join(str(self.population[0][0])))
 
+    # never implemented, do not use
     def runWithTournamentSelection(self):
         pass
 

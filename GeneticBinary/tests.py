@@ -2,12 +2,15 @@ import string
 from GeneticBinary import GeneticAlgorithm
 import matplotlib.pyplot as plt
 import random as rand
+import time
+
+#expected_string = "porquelatierraesmaspequenaqueelsolylalunaesmaspequenaquelatierra"
+expected_string = "supercalifragilisticoespialidoso"
 
 def charFitnessFunc(individual):
-    expectedString = "porquelatierraesmaspequenaqueelsolylalunaesmaspequenaquelatierra"
     fitness = 0
     for i, gene in enumerate(individual):
-        if gene == expectedString[i]:
+        if gene == expected_string[i]:
             fitness += 1
     return fitness
 
@@ -25,13 +28,16 @@ fitnessFunction = charFitnessFunc
 
 generatorFunc = strGeneratorFunc
 count = 0
-for char in "porquelatierraesmaspequenaqueelsolylalunaesmaspequenaquelatierra":
+for char in expected_string:
     count += 1
 
 alggenetico = GeneticAlgorithm.GeneticAlgorithm(800,0.001,count,fitnessFunction,
                                                 generatorFunc,alphabet = list(string.ascii_lowercase),maxNumberOfIterations=2000)
+start = time.time()
 alggenetico.runWithAccFitness()
-
+end = time.time()
+running_time = (end - start)
+print("the time taken to finish the algorithm was: "+str(running_time))
 # #Plotting
 
 
