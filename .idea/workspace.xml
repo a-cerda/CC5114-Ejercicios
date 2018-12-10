@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="59404922-27aa-42ee-9b33-7f883e0b1bdf" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/NeuralMario/MarioEnvironment.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GeneticBinary/GeneticAlgorithm.py" beforeDir="false" afterPath="$PROJECT_DIR$/GeneticBinary/GeneticAlgorithm.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/GeneticBinary/hamiltonianFinder.py" beforeDir="false" afterPath="$PROJECT_DIR$/GeneticBinary/hamiltonianFinder.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GeneticBinary/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/GeneticBinary/tests.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,7 +14,8 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/CC5114_Ejercicios$testcasescatedra.coverage" NAME="testcasescatedra Coverage Results" MODIFIED="1541801500173" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/NeuralNetwork" />
-    <SUITE FILE_PATH="coverage/CC5114_Ejercicios$hamiltonianFinder.coverage" NAME="hamiltonianFinder Coverage Results" MODIFIED="1543802069656" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/GeneticBinary" />
+    <SUITE FILE_PATH="coverage/CC5114_Ejercicios$MarioEnvironment.coverage" NAME="MarioEnvironment Coverage Results" MODIFIED="1544467490603" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/NeuralMario" />
+    <SUITE FILE_PATH="coverage/CC5114_Ejercicios$hamiltonianFinder.coverage" NAME="hamiltonianFinder Coverage Results" MODIFIED="1543803700143" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/GeneticBinary" />
     <SUITE FILE_PATH="coverage/CC5114_Ejercicios$tests.coverage" NAME="tests Coverage Results" MODIFIED="1543801444864" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/GeneticBinary" />
     <SUITE FILE_PATH="coverage/CC5114_Ejercicios$irisPredictor.coverage" NAME="irisPredictor Coverage Results" MODIFIED="1541817493279" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/NeuralNetwork" />
     <SUITE FILE_PATH="coverage/CC5114_Ejercicios$testNN.coverage" NAME="testNN Coverage Results" MODIFIED="1541811604893" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/NeuralNetwork" />
@@ -24,35 +24,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/GeneticBinary/hamiltonianFinder.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
-              <caret line="174" lean-forward="true" selection-start-line="174" selection-end-line="174" />
-              <folding>
-                <element signature="e#0#23#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/GeneticBinary/tests.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="38" selection-start-line="38" selection-end-line="39" selection-end-column="71" />
-              <folding>
-                <element signature="e#0#13#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/GeneticBinary/GeneticAlgorithm.py">
+        <entry file="file://$PROJECT_DIR$/NeuralMario/MarioEnvironment.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-636">
-              <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
+            <state relative-caret-position="285">
+              <caret line="15" column="11" lean-forward="true" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="11" />
+              <folding>
+                <element signature="e#0#57#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -96,8 +75,9 @@
         <option value="$PROJECT_DIR$/GeneticBinary/__init__.py" />
         <option value="$PROJECT_DIR$/GeneticBinary/Individual.py" />
         <option value="$PROJECT_DIR$/GeneticBinary/tests.py" />
-        <option value="$PROJECT_DIR$/GeneticBinary/hamiltonianFinder.py" />
         <option value="$PROJECT_DIR$/GeneticBinary/GeneticAlgorithm.py" />
+        <option value="$PROJECT_DIR$/GeneticBinary/hamiltonianFinder.py" />
+        <option value="$PROJECT_DIR$/NeuralMario/MarioEnvironment.py" />
       </list>
     </option>
   </component>
@@ -111,7 +91,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -124,10 +103,21 @@
               <item name="CC5114-Ejercicios" type="462c0819:PsiDirectoryNode" />
               <item name="GeneticBinary" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="CC5114-Ejercicios" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CC5114-Ejercicios" type="462c0819:PsiDirectoryNode" />
+              <item name="NeuralMario" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CC5114-Ejercicios" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CC5114-Ejercicios" type="462c0819:PsiDirectoryNode" />
+              <item name="NeuralNetwork" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -153,7 +143,29 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.hamiltonianFinder">
+  <component name="RunManager" selected="Python.MarioEnvironment">
+    <configuration name="MarioEnvironment" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="CC5114-Ejercicios" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/NeuralMario" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/NeuralMario/MarioEnvironment.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="hamiltonianFinder" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="CC5114-Ejercicios" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -220,28 +232,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="testcasescatedra" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="CC5114-Ejercicios" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/NeuralNetwork" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/NeuralNetwork/testcasescatedra.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="tests" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="CC5114-Ejercicios" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -266,18 +256,18 @@
     </configuration>
     <list>
       <item itemvalue="Python.testNN" />
-      <item itemvalue="Python.testcasescatedra" />
       <item itemvalue="Python.irisPredictor" />
       <item itemvalue="Python.tests" />
       <item itemvalue="Python.hamiltonianFinder" />
+      <item itemvalue="Python.MarioEnvironment" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.MarioEnvironment" />
         <item itemvalue="Python.hamiltonianFinder" />
         <item itemvalue="Python.tests" />
         <item itemvalue="Python.irisPredictor" />
         <item itemvalue="Python.testNN" />
-        <item itemvalue="Python.testcasescatedra" />
       </list>
     </recent_temporary>
   </component>
@@ -308,7 +298,10 @@
       <workItem from="1543541839025" duration="1611000" />
       <workItem from="1543614843974" duration="1974000" />
       <workItem from="1543778541481" duration="6614000" />
-      <workItem from="1543798237570" duration="4682000" />
+      <workItem from="1543798237570" duration="6487000" />
+      <workItem from="1543869718449" duration="956000" />
+      <workItem from="1544461625214" duration="974000" />
+      <workItem from="1544467221260" duration="730000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1538424863839</created>
@@ -429,7 +422,14 @@
       <option name="project" value="LOCAL" />
       <updated>1543457482300</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="added testing functionality">
+      <created>1543802944649</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1543802944649</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -465,7 +465,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="80977000" />
+    <option name="totallyTimeSpent" value="85442000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -478,9 +478,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="25" width="1920" height="1055" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49707603" visible="true" weight="0.16488793" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49707603" visible="true" weight="0.1696905" />
       <window_info id="Structure" order="1" sideWeight="0.50292397" side_tool="true" weight="0.16488793" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -501,7 +500,7 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="SciView" order="3" visible="true" weight="0.4103522" />
+      <window_info anchor="right" id="SciView" order="3" weight="0.4103522" />
       <window_info anchor="right" id="Database" order="4" />
       <window_info anchor="right" id="Coverage" order="5" side_tool="true" />
     </layout>
@@ -545,7 +544,8 @@
     <MESSAGE value="Pythoning up the code" />
     <MESSAGE value="Optimization done, changed Individual class for list representation" />
     <MESSAGE value="Created fitness and generator functions for finding hamiltonian path in an undirected graph" />
-    <option name="LAST_COMMIT_MESSAGE" value="Created fitness and generator functions for finding hamiltonian path in an undirected graph" />
+    <MESSAGE value="added testing functionality" />
+    <option name="LAST_COMMIT_MESSAGE" value="added testing functionality" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Perceptron/Test/Ejercicio1Test.py" />
@@ -607,24 +607,46 @@
     <entry file="file://$PROJECT_DIR$/GeneticBinary/mutation_rate0.015.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/GeneticBinary/mutation_rate0.025.png">
+    <entry file="file://$PROJECT_DIR$/GeneticBinary/mutation_rate0.055.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GeneticBinary/hamiltonianFinder.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GeneticBinary/mutation_rate0.05.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/GeneticBinary/mutation_rate0.03.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/GeneticBinary/mutation_rate0.01.png">
+    <entry file="file://$PROJECT_DIR$/GeneticBinary/mutation_rate0.065.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/GeneticBinary/mutation_rate0.055.png">
+    <entry file="file://$PROJECT_DIR$/GeneticBinary/mutation_rate0.06999999999999999.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GeneticBinary/mutation_rate0.025.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GeneticBinary/mutation_rate0.060000000000000005.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/GeneticBinary/mutation_rate0.02.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/GeneticBinary/mutation_rate0.01.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/GeneticBinary/tests.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
+        <state relative-caret-position="475">
           <caret line="38" selection-start-line="38" selection-end-line="39" selection-end-column="71" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
@@ -632,20 +654,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/GeneticBinary/hamiltonianFinder.py">
+    <entry file="file://$PROJECT_DIR$/GeneticBinary/GeneticAlgorithm.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="174" lean-forward="true" selection-start-line="174" selection-end-line="174" />
-          <folding>
-            <element signature="e#0#23#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="19">
+          <caret line="42" selection-start-line="42" selection-end-line="42" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/GeneticBinary/GeneticAlgorithm.py">
+    <entry file="file://$PROJECT_DIR$/NeuralMario/MarioEnvironment.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-636">
-          <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
+        <state relative-caret-position="285">
+          <caret line="15" column="11" lean-forward="true" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="11" />
+          <folding>
+            <element signature="e#0#57#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

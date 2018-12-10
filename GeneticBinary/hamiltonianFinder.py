@@ -67,7 +67,7 @@ def adjacency_matrix_to_graph(adjacency_matrix):
 
 
 # we change the graph to be one of the adjacency matrixes
-graph = adjacency_matrix_to_graph(adjacency_matrix_1)
+#graph = adjacency_matrix_to_graph(adjacency_matrix_1)
 print(graph.keys())
 
 
@@ -155,9 +155,9 @@ number_of_genes = len(graph.keys())
 # print(execution_times)
 
 #Uncomment here and comment above if you want a single algorithm pass
-hamiltonian_genetic_algorithm = GeneticAlgorithm.GeneticAlgorithm(800, 0.06, number_of_genes, fitness_function,
+hamiltonian_genetic_algorithm = GeneticAlgorithm.GeneticAlgorithm(100, 0.06, number_of_genes, fitness_function,
                                                                   generator_function, alphabet,
-                                                                  maxNumberOfIterations=30000)
+                                                                  maxNumberOfIterations=1000)
 
 #Plotting
 start = time.time()
